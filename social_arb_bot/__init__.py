@@ -1,0 +1,1 @@
+"""Social arbitrage monitoring bot."""

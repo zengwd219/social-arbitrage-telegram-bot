@@ -1,0 +1,56 @@
+{
+  "top_n": 5,
+  "brands": [
+    {
+      "name": "Apple",
+      "ticker": "AAPL",
+      "sector": "technology",
+      "keywords": ["apple vision pro", "iphone", "airpods max"]
+    },
+    {
+      "name": "Tesla",
+      "ticker": "TSLA",
+      "sector": "technology",
+      "keywords": ["tesla cybertruck", "tesla robotaxi", "tesla fsd"]
+    },
+    {
+      "name": "Nike",
+      "ticker": "NKE",
+      "sector": "retail",
+      "keywords": ["nike shoes", "nike collab", "sneaker drop"]
+    },
+    {
+      "name": "Lululemon",
+      "ticker": "LULU",
+      "sector": "retail",
+      "keywords": ["lululemon belt bag", "align leggings", "lululemon outfit"]
+    },
+    {
+      "name": "Coca-Cola",
+      "ticker": "KO",
+      "sector": "consumer",
+      "keywords": ["coca cola", "coke flavor", "viral drink"]
+    },
+    {
+      "name": "PepsiCo",
+      "ticker": "PEP",
+      "sector": "consumer",
+      "keywords": ["pepsi", "gatorade", "mountain dew"]
+    }
+  ],
+  "reddit": {
+    "subreddits": ["wallstreetbets", "stocks", "investing", "technology"],
+    "limit_per_keyword": 25
+  },
+  "youtube": {
+    "max_results_per_keyword": 10
+  },
+  "google_trends": {
+    "geo": "US",
+    "timeframe": "today 3-m"
+  },
+  "risk_rules": {
+    "high_velocity_threshold": 1.8,
+    "min_total_mentions": 4
+  }
+}
